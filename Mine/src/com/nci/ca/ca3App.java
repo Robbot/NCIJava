@@ -1,3 +1,5 @@
+package com.nci.ca;
+
 import java.util.Scanner;
 
 public class ca3App {
