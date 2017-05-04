@@ -1,5 +1,5 @@
 package OverloadedConstructor;
-
+import java.util.Date;
 public class AssesmentApp {
 	public static void main(String[] args){
 		
@@ -21,12 +21,20 @@ public class AssesmentApp {
 		System.out.println("Assesment Weighting: "+b.getWeighting());
 		
 		//new instance of the Project class called p
-		//Date d = new Date(28,03,2013);
-		Project p = new Project("OOP Project", "Continous Assesment", 30, 14862528000);
+		Date d = new Date(28,03,2017);
+		Project p = new Project("OOP Project", "Continous Assesment", 30, d);
 		
 		System.out.println(p.getName());
 		System.out.println(p.getType());
 		System.out.println(p.getWeighting());
 		System.out.println(p.getDeadline());
+		
+		//A new instance of the Test Class
+		Test t = new Test("OOP Exam", "Terminal", 70,10,60);
+		System.out.println(t.getName());
+		System.out.println(t.getType());
+		System.out.println(t.getWeighting());
+		System.out.println(t.getDuration());
+		System.out.println(t.getNumQuestions());
 	}
 }

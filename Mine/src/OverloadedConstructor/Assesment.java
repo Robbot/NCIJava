@@ -1,9 +1,9 @@
 package OverloadedConstructor;
 
 public class Assesment {
-	private String name;
-	private String type;
-	private int weighting;
+	protected String name;
+	protected String type;
+	protected int weighting;
 	
 	public Assesment(){
 		name = new String();
