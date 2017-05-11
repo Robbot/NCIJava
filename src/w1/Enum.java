@@ -1,3 +1,4 @@
+package w1;
 class FreshJuice {
    enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
    FreshJuiceSize size;
