@@ -2,7 +2,7 @@ import java.util.*;
 public class MeasureApp {
 	public static void main(String[] args){
 		//declare variables
-		int m, cm;
+		int am, cm;
 		
 		//declare objects
 		Scanner sc;
@@ -14,8 +14,8 @@ public class MeasureApp {
 		
 		//input
 		System.out.println("Please enter number of meters");
-		m = sc.nextInt();
-		myMeasure.setM(m);
+		//am = sc.nextInt();
+		myMeasure.setM(5);
 		
 		//process
 		myMeasure.compute();
