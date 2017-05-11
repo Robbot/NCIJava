@@ -1,4 +1,4 @@
-
+package w02;
 public class Multiplier {
 
     // declare the main method

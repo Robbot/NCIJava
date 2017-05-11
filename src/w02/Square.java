@@ -1,4 +1,4 @@
-
+package w02;
 public class Square {
 	public static void main(String args[]){
 		//declare variables

@@ -1,4 +1,5 @@
 /**
+
 Calculates the change owed to a customer.
 
 ChangeCalculator is an application that helps a seller to give the right
@@ -19,7 +20,7 @@ Save the class as ChangeCalculator.java
 @author adriana e chis
 
 */
-
+package w02;
 import java.util.Scanner;
 public class changeCalculatorSolution {
 	

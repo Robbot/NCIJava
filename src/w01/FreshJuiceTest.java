@@ -1,10 +1,10 @@
-package w1;
-class FreshJuice {
-   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
-   FreshJuiceSize size;
-}
+package w01;
+class FreshJuice1 {
+	   enum FreshJuiceSize{ SMALL, MEDIUM, LARGE }
+	   FreshJuiceSize size;
+}	
 
-public class Enum {
+public class FreshJuiceTest {
 
    public static void main(String args[]) {
       FreshJuice juice = new FreshJuice();

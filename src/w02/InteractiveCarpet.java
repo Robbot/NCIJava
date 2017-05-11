@@ -1,3 +1,4 @@
+package w02;
 import java.util.Scanner;
 public class InteractiveCarpet {
 	public static void main(String args[]){

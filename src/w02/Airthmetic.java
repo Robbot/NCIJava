@@ -1,3 +1,4 @@
+package w02;
 import java.util.Scanner;
 public class Airthmetic {
 	public static void main(String args[]){
