@@ -26,7 +26,7 @@ Route66App.java
 @author adriana e chis
 */
 
-
+package w04;
 import java.util.Scanner;
 public class Route66App{
 	public static void main(String args[]){

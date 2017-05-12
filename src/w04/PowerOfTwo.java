@@ -12,7 +12,7 @@ a simple example to demonstrate
     -- how to declare a getter method
             --- A getter method is a method which returns/ retrieves the value of an instance variable.
 */
-
+package w04;
 public class PowerOfTwo{
 	// declare instance variables 
 	private int n; // to store a number

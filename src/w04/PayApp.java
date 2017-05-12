@@ -9,7 +9,7 @@ PayApp.java - the class takes input from the user, uses the instantiable class P
 
 @author a e chis
 */
-
+package w04;
 import java.util.Scanner;
 
 // declare the class PayApp

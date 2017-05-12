@@ -9,7 +9,7 @@ Person.java demonstrates
 	
 @author HDCOMP students and a e chis	
 */
-
+package w04;
 // declare a class named Person
 public class Person{
 	

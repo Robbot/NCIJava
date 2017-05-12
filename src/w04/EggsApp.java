@@ -24,7 +24,7 @@ EggsApp
 
 */
 
-
+package w04;
 import java.util.Scanner;
 public class EggsApp{
 	public static void main(String args[]){

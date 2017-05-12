@@ -9,7 +9,7 @@ Hint 1litre = 2.11 pints
 @author a e chis
 */
 
-
+package w03;
 import java.util.Scanner;
 
 // declare a class named Converter

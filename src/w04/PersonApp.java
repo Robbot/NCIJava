@@ -8,7 +8,7 @@ PersonApp.java demonstrates
 	
 @author HDCOMP students and a e chis
 */
-
+package w04;
 // declare the class named PersonApp
 public class PersonApp {
 	

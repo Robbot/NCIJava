@@ -1,3 +1,4 @@
+package w04;
 import java.util.*;
 public class SimpleCalculator
         {

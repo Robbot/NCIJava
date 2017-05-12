@@ -22,7 +22,7 @@ Route66.java -- the instantiable class which calculates different metrics accord
 
 @author adriana e chis
 */
-
+package w04;
 public class Route66 {
 
 	// declare instance variables/ data members

@@ -20,7 +20,7 @@ Eggs -- the instantiable class
 @author adriana e chis
 
 */
-
+package w04;
 public class Eggs {
 
 	// declare a constant

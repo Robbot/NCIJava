@@ -5,7 +5,7 @@ Pay.java
 @author a e chis
 
 */
-
+package w04;
 // declare the instantiable class named Pay
 public class Pay{
 	// declare the instance variables	

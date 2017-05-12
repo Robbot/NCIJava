@@ -13,7 +13,7 @@ a simple example to demonstrate
             --- A getter method is a method which returns/ retrieves the value of an instance variable.
 */
 
-
+package w04;
 public class PowerOfTwoApp{
     public static void main(String args[]){
 

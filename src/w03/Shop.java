@@ -11,7 +11,7 @@ to ensure the calculations are correct.
 @author HDCOMP students and a e chis
 */
 
-
+package w03;
 import java.util.Scanner;
 
 // declare a class named Shop
