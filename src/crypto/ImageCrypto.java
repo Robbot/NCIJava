@@ -12,6 +12,13 @@ import javax.crypto.CipherOutputStream;
 import javax.crypto.spec.SecretKeySpec;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
+import java.awt.Color;
+import javax.swing.GroupLayout.Alignment;
+import javax.swing.GroupLayout;
+import javax.swing.LayoutStyle.ComponentPlacement;
+import javax.swing.JLabel;
+import java.awt.Font;
+import javax.swing.SwingConstants;
 
 /**
  *
@@ -23,6 +30,8 @@ public class ImageCrypto extends javax.swing.JFrame {
      * Creates new form ImageCrypto
      */
     public ImageCrypto() {
+    	getContentPane().setBackground(Color.DARK_GRAY);
+    	setBackground(Color.DARK_GRAY);
         initComponents();
     }
 
@@ -62,38 +71,48 @@ public class ImageCrypto extends javax.swing.JFrame {
                 jButton3ActionPerformed(evt);
             }
         });
+        
+        JLabel lblEncrypting = new JLabel("System of encrypting and decrypting pictures ");
+        lblEncrypting.setHorizontalAlignment(SwingConstants.CENTER);
+        lblEncrypting.setFont(new Font("MS Reference Sans Serif", Font.BOLD, 16));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(130, 130, 130)
-                        .addComponent(file_path, javax.swing.GroupLayout.PREFERRED_SIZE, 201, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton1))
-                    .addGroup(layout.createSequentialGroup()
-                        .addGap(192, 192, 192)
-                        .addComponent(jButton2)
-                        .addGap(18, 18, 18)
-                        .addComponent(jButton3)))
-                .addContainerGap(349, Short.MAX_VALUE))
+        	layout.createParallelGroup(Alignment.LEADING)
+        		.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        			.addContainerGap(216, Short.MAX_VALUE)
+        			.addGroup(layout.createParallelGroup(Alignment.LEADING)
+        				.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        					.addComponent(file_path, GroupLayout.PREFERRED_SIZE, 298, GroupLayout.PREFERRED_SIZE)
+        					.addGap(35)
+        					.addComponent(jButton1)
+        					.addGap(110))
+        				.addGroup(Alignment.TRAILING, layout.createSequentialGroup()
+        					.addComponent(jButton2)
+        					.addGap(80)
+        					.addComponent(jButton3)
+        					.addGap(237))))
+        		.addGroup(layout.createSequentialGroup()
+        			.addGap(158)
+        			.addComponent(lblEncrypting, GroupLayout.PREFERRED_SIZE, 426, GroupLayout.PREFERRED_SIZE)
+        			.addContainerGap(152, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(layout.createSequentialGroup()
-                .addGap(69, 69, 69)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(file_path, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jButton1))
-                .addGap(18, 18, 18)
-                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jButton2)
-                    .addComponent(jButton3))
-                .addContainerGap(313, Short.MAX_VALUE))
+        	layout.createParallelGroup(Alignment.LEADING)
+        		.addGroup(layout.createSequentialGroup()
+        			.addGap(53)
+        			.addComponent(lblEncrypting, GroupLayout.PREFERRED_SIZE, 54, GroupLayout.PREFERRED_SIZE)
+        			.addGap(73)
+        			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        				.addComponent(jButton1)
+        				.addComponent(file_path, GroupLayout.PREFERRED_SIZE, GroupLayout.DEFAULT_SIZE, GroupLayout.PREFERRED_SIZE))
+        			.addGap(26)
+        			.addGroup(layout.createParallelGroup(Alignment.BASELINE)
+        				.addComponent(jButton3)
+        				.addComponent(jButton2))
+        			.addGap(182))
         );
+        getContentPane().setLayout(layout);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -194,5 +213,4 @@ public class ImageCrypto extends javax.swing.JFrame {
     private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JButton jButton3;
-    // End of variables declaration//GEN-END:variables
 }
