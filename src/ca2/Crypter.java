@@ -1,4 +1,4 @@
-package crypto;
+package ca2;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -16,10 +16,10 @@ import java.awt.Font;
 import javax.swing.SwingConstants;
 
 @SuppressWarnings("serial")
-public class ImageCrypto extends javax.swing.JFrame {
+public class Crypter extends javax.swing.JFrame {
 
 
-    public ImageCrypto() {
+    public Crypter() {
     	getContentPane().setBackground(Color.DARK_GRAY);
     	setBackground(Color.DARK_GRAY);
         initComponents();
@@ -169,18 +169,18 @@ public class ImageCrypto extends javax.swing.JFrame {
                 }
             }
         } catch (ClassNotFoundException ex) {
-            java.util.logging.Logger.getLogger(ImageCrypto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Crypter.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (InstantiationException ex) {
-            java.util.logging.Logger.getLogger(ImageCrypto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Crypter.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (IllegalAccessException ex) {
-            java.util.logging.Logger.getLogger(ImageCrypto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Crypter.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         } catch (javax.swing.UnsupportedLookAndFeelException ex) {
-            java.util.logging.Logger.getLogger(ImageCrypto.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
+            java.util.logging.Logger.getLogger(Crypter.class.getName()).log(java.util.logging.Level.SEVERE, null, ex);
         }
 
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-                new ImageCrypto().setVisible(true);
+                new Crypter().setVisible(true);
             }
         });
     }
