@@ -1,4 +1,4 @@
-package mine;
+/*package mine;
 import java.util.*;
 public class Boolean {
 	public static void main(String args[]){
@@ -20,3 +20,4 @@ public class Boolean {
 		}
 	}
 }
+*/

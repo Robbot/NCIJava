@@ -1,4 +1,4 @@
-package ca;
+/*package ca;
 
 import java.util.Scanner;
 
@@ -26,3 +26,4 @@ public class ca3App {
         System.out.println("The distinct number are: " + calcObj.findDistinct);
         }
 }
+*/

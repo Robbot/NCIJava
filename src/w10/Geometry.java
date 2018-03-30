@@ -1,23 +1,23 @@
-package w10;
+/*package w10;
 // in Java, we use packages to group related types (i.e. classes) and to control access
 // package geometry;
 
-/**
+*//**
  * Inheritance example: Write an application that calculates the area and perimeter of a rectangle and a square and displays them to the user. Use inheritance and polymorphism.
  * 
  * Geometry uses the instantiable classes Rectangle (a subclass) and the Shape (a superclass) to demonstrate the concepts of inheritance and polymorphism in Java.
  * 
  * @author HDCOMP students & a e chis
- */
+ *//*
 public class Geometry {
 
-    /**
+    *//**
      * @param args the command line arguments
-     */
+     *//*
     public static void main(String[] args) {
         
         
-        /* demo inheritance*/
+         demo inheritance
         System.out.println("===inheritance demo");
         // declare a variable named s1 of type Shape (i.e. the superclass)
         Shape s1;
@@ -41,7 +41,7 @@ public class Geometry {
         a = r1.getArea();
         System.out.println("rectangle: " + a);
         
-        /* polymorphism demo */
+         polymorphism demo 
         // Task 1 from Lab_Inheritance_Polymorphism_Abstract_Classes.pdf document
         System.out.println("===polymorphism demo");
         // declare two variable of superclass type Shape
@@ -62,7 +62,7 @@ public class Geometry {
         a = rectangle1.getArea();
         System.out.println("rectangle: " + a);   
         
-        /* instanceof demo */
+         instanceof demo 
         System.out.println("===instanceof demo");
         // declare two variable of superclass type Shape
         Shape s2, r2;
@@ -88,14 +88,14 @@ public class Geometry {
             System.out.println(w);
         }
         
-        /* abstract class demo */
+         abstract class demo 
         // AbsShape abs = new AbsShape("generic shape"); // this line is commented out as we cannot create object/instances of an abstract class
-        /*
+        
         TODO remove the comment of the line 88, compile this class and you should see a compilation error: "AbsShape is abstract; cannot be instantiated". The compiler tells us that we cannot create objects of type AbsShape -- recall that we declared the class as abstract
-        */
         
         
-        /* overriding methods demo */
+        
+         overriding methods demo 
         System.out.println("===overriding methods demo");
         // next we use/call/invoke the methods from the superclass Shape and subclass Rectangle
         // the Rectangle class overrides the methods from the superclass Shape (solutions to Task 2, Task 3, Task 4 and Task 5 from Lab_Inheritance_Polymorphism_Abstract_Classes.pdf document)
@@ -106,9 +106,9 @@ public class Geometry {
         r1.displayMe();
         
         
-        /************************************************************/
+        *//************************************************************//*
         
-        /* another demo on polymorphism and instanceof keyword; the above examples on polymorphism and instanceof are rewritten using an 1D array of Shapes*/
+         another demo on polymorphism and instanceof keyword; the above examples on polymorphism and instanceof are rewritten using an 1D array of Shapes
         System.out.println("===another polymorphism and instanceof demo using an array of type Shape shapes[]");
         // polymorphism allows us to write programs that process both objects of different subclasses and objects of the superclass as if they were all objects of the superclass; let's assume we would have a large array of a superclass type, then the array can store objects of any types which belong to the same inheritance hierarchy
         Shape[] shapes = new Shape[4]; // declare and create an array of type Shape with size 4
@@ -122,11 +122,11 @@ public class Geometry {
         for (int i = 0; i < shapes.length; i++){
                 s = shapes[i]; // retrieve the current object from the array
                 // polymorphism demo
-                /*
+                
                 polymorphism: at runtime Java calls the correct computeArea() method of the instance/object that is referred from each variable, 
                 that means if the object's type is Shape it will call the computeArea() method defined in the Shape class, 
                 whereas if the object's type is Rectangle it will call the computeArea() method defined in the Rectangle
-                */
+                
                 s.computeArea(); 
                 area = s.getArea();
                 System.out.println("area is: " + area);
@@ -147,3 +147,4 @@ public class Geometry {
 }
 
 
+*/
