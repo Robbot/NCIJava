@@ -14,7 +14,8 @@ import javax.swing.GroupLayout;
 import javax.swing.JLabel;
 import java.awt.Font;
 import javax.swing.SwingConstants;
-
+//*simple comment
+//
 @SuppressWarnings("serial")
 public class Crypter extends javax.swing.JFrame {
 
